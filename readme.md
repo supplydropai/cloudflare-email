@@ -79,7 +79,7 @@ Instead of providing text content you can pass in an `html` parameter that will 
     "html": "<html><span>Your verification code is 699256</span></html>"
 }
 ```
-### Adding replyTo, CC, BCC
+### Adding Reply-To, CC, BCC
 You can also specify any of Reply-To, CC, or BCC parameters in your emails.
 ```json
 {
@@ -92,7 +92,7 @@ You can also specify any of Reply-To, CC, or BCC parameters in your emails.
     "text": "Your verification code is 699256"
 }
 ```
-### Adding names to any of To, From, replyTo, CC, or BCC
+### Adding names to any email address
 You can also specify names for any of the parameters that contains an email.
 ```json
 {
